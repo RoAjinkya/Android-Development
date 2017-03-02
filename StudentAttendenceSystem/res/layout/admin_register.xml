@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_all" >
+    
+ <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    
+            <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp" >
+            
+        <TextView
+            android:id="@+id/AdminRegister_Admin_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin_id"
+            android:textSize="20sp" 
+            android:textColor="@android:color/white"
+            />
+
+        <TextView
+            android:id="@+id/AdminRegister_editadminid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:clickable="false"
+            android:layout_marginLeft="30dp" 
+               android:textColor="@android:color/white"/>
+    </TableRow>
+
+ <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp" >
+            
+        <TextView
+            android:id="@+id/AdminRegister_fname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FirstName"
+            android:textSize="20sp"
+               android:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/AdminRegister_editfname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+               android:textColor="@android:color/white"/>
+    </TableRow>
+
+   <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp" >
+            
+        <TextView
+            android:id="@+id/AdminRegister_lname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LastName"
+            android:textSize="20sp" 
+               android:textColor="@android:color/white"/>
+
+        <EditText
+            android:id="@+id/AdminRegister_editlname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+               android:textColor="@android:color/white"/>
+    </TableRow>
+
+<TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp" >
+            
+        <TextView
+            android:id="@+id/AdminRegister_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textSize="20sp" 
+               android:textColor="@android:color/white"/>
+
+        <EditText
+            android:id="@+id/AdminRegister_editaddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+               android:textColor="@android:color/white"/>
+    </TableRow>
+
+   <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp" >
+            
+        <TextView
+            android:id="@+id/AdminRegister_contno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact_No"
+            android:textSize="20sp" 
+               android:textColor="@android:color/white"/>
+
+        <EditText
+            android:id="@+id/AdminRegister_editcontno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+   <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp" >
+            
+        <TextView
+            android:id="@+id/AdminRegister_email_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email_id"
+            android:textSize="20sp" 
+               android:textColor="@android:color/white"/>
+
+        <EditText
+            android:id="@+id/AdminRegister_editemailid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+   <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp" >
+            
+        <TextView
+            android:id="@+id/AdminRegister_login_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login_id"
+            android:textSize="20sp" 
+               android:textColor="@android:color/white"/>
+
+        <EditText
+            android:id="@+id/AdminRegister_editloginid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp" >
+                    <TextView
+            android:id="@+id/AdminRegister_passwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textSize="20sp"
+               android:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/AdminRegister_editpasswd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:password="true" 
+               android:textColor="@android:color/white"/>
+    </TableRow>
+<TableRow
+            android:id="@+id/tableRow9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp" >
+            
+    <Button
+        android:id="@+id/AdminRegister_submit"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:enabled="true"
+        android:text="Submit" 
+        android:layout_gravity="center"
+           android:textColor="@android:color/white"
+           android:background="@drawable/button_background"/>
+
+
+   <Button 
+       android:id="@+id/newregister"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:enabled="true"
+       android:text="New Register"
+       android:layout_gravity="center_horizontal"
+          android:textColor="@android:color/white"
+           android:background="@drawable/button_background"/>
+       
+       
+      
+   </TableRow>
+   </TableLayout>
+</ScrollView>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    android:gravity="center|top"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/adminsubject_bname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Department"
+        android:textSize="25sp" >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="Year :"
+            android:textColor="@android:color/white" >
+        </TextView>
+
+        <Spinner
+            android:id="@+id/adminsubjet_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/adminsubjet_okbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:text="OK"
+        android:textColor="@android:color/white" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="6dp" >
+
+        <Button
+            android:id="@+id/admin_addSubject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:text="Add Subject"
+            android:textColor="@android:color/white" 
+             android:padding="6dp"/>
+
+        <Button
+            android:id="@+id/admin_deleteSubject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:text="Delete Subject"
+            android:layout_marginLeft="6dp"
+            android:textColor="@android:color/white" 
+             android:padding="6dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="352dp" >
+
+        <ListView
+            android:id="@+id/adminsubjet_sublist"
+            android:layout_width="wrap_content"
+            android:layout_height="227dp"
+            android:padding="6dp" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

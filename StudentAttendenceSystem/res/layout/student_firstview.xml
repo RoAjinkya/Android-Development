@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_all" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/studfirstview_studname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="Student Name"
+             android:textColor="@android:color/white" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/studfirstview_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="Logout" 
+             android:textColor="@android:color/white">
+        </TextView>
+         <TextView
+                android:id="@+id/studfirstview_crntdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="00-00-0000" 
+                 android:textColor="@android:color/white">
+            </TextView>
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:orientation="horizontal"
+            android:padding="6dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Student ID" 
+                 android:textColor="@android:color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text=":" 
+                 android:textColor="@android:color/white"/>
+
+            <TextView
+                android:id="@+id/studfirstview_studID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:textColor="@android:color/white" />
+        </TableRow>
+        
+         <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:orientation="horizontal"
+            android:padding="6dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Student Name"
+                 android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text=":" 
+                 android:textColor="@android:color/white"/>
+
+            <TextView
+                android:id="@+id/studfirstview_studname1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                 android:textColor="@android:color/white"/>
+        </TableRow>
+        
+          <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:orientation="horizontal"
+            android:padding="6dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="RollNo." 
+                 android:textColor="@android:color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text=":"
+                 android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/studfirstview_studRollno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:textColor="@android:color/white" />
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:orientation="horizontal"
+            android:padding="6dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Department" 
+                 android:textColor="@android:color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text=":"
+                 android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/studfirstview_studbranch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                 android:textColor="@android:color/white"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:orientation="horizontal"
+            android:padding="6dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Year" 
+                 android:textColor="@android:color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text=":" 
+                 android:textColor="@android:color/white"/>
+
+            <TextView
+                android:id="@+id/studfirstview_studyear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                 android:textColor="@android:color/white"/>
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="6dp" >
+
+        <Button
+            android:id="@+id/studfirstview_btnatendnc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Attendance" 
+             android:textColor="@android:color/white"
+             android:background="@drawable/button_background"/>
+
+        <Button
+            android:id="@+id/studfirstview_btnmarks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student Info"
+            android:layout_marginLeft="10dp"
+             android:textColor="@android:color/white"
+             android:background="@drawable/button_background" />
+    </LinearLayout>
+
+</LinearLayout>

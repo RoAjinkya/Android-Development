@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:orientation="horizontal" 
+    android:background="@drawable/gradient_all">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_weight="0.40"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:text="Date" 
+                    android:textColor="@android:color/white"
+                    >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/studentIfo__date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:text="00-00-0000"
+                      android:textColor="@android:color/white" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:text="Time"
+                      android:textColor="@android:color/white" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/studentIfo__time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:text="00-00" 
+                      android:textColor="@android:color/white">
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            android:layout_gravity="center"
+            android:padding="6dp">
+
+            <Button
+                android:id="@+id/studentIfo_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit Marks" 
+                  android:textColor="@android:color/white"
+                  android:background="@drawable/button_background"/>
+
+            <Button
+                android:id="@+id/submitInfo_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Marks"
+                android:layout_marginTop="10dp"
+                  android:textColor="@android:color/white"
+                  android:background="@drawable/button_background" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/studentIfo_lectname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="Lecturer Name" 
+              android:textColor="@android:color/white">
+        </TextView>
+
+        <TextView
+            android:id="@+id/studentIfo_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="Logout"
+              android:textColor="@android:color/white" >
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

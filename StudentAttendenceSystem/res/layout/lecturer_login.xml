@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center|top"
+ >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login Id"
+                 android:padding="6dp"
+                 android:textColor="@android:color/white"
+                  >
+            </TextView>
+
+            <EditText
+                 android:id="@+id/lecturerlogin_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="id "
+                 android:padding="6dp" 
+                 android:singleLine="true"
+                 android:textColor="@android:color/white"/>
+        </TableRow>
+         <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                 android:padding="6dp" 
+                 android:textColor="@android:color/white">
+            </TextView>
+
+            <EditText
+                 android:id="@+id/lecturerlogin_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:password="true" 
+                android:hint="password"
+                 android:padding="6dp"
+                 android:singleLine="true"
+                 android:textColor="@android:color/white"/>
+        </TableRow>
+    </TableLayout>
+    <Button  
+        android:id="@+id/lecturerlogin_button"
+         android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login" 
+                android:padding="6dp"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button_background"/>
+
+</LinearLayout>

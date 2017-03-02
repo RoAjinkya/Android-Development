@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:orientation="vertical" 
+    android:gravity="center"
+    android:background="@drawable/gradient_all">
+     <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:text=" Subject ID:"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/admin_d_sID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="branch name"
+            android:padding="6dp"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/admin_d_subdelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK" 
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background">
+    </Button>
+
+</LinearLayout>

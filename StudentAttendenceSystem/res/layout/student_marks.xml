@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_all" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/Studentmarks_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="Name"
+             android:textColor="@android:color/white"
+              >
+        </TextView>
+
+        <TextView
+            android:id="@+id/Studentmarks_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="Logout"
+              android:textColor="@android:color/white" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/Studentmarks_crntdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="00-00-0000" 
+              android:textColor="@android:color/white">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:text="Exam Name :" 
+              android:textColor="@android:color/white">
+        </TextView>
+
+        <Spinner
+            android:id="@+id/Studentmarks_exam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Studentmarks_btnok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+          android:textColor="@android:color/white"
+          android:background="@drawable/button_background" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:orientation="horizontal"
+            android:padding="6dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Date"
+                  android:textColor="@android:color/white" >
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text=":" 
+                  android:textColor="@android:color/white">
+            </TextView>
+
+            <TextView
+                android:id="@+id/Studentmarks_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="00-00-00" 
+                  android:textColor="@android:color/white"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:orientation="horizontal"
+            android:padding="6dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Outoff Marks"
+                  android:textColor="@android:color/white" >
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text=":"
+                  android:textColor="@android:color/white" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/Studentmarks_outoff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="000"
+                  android:textColor="@android:color/white" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:orientation="horizontal"
+            android:padding="6dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text=" Marks" 
+                  android:textColor="@android:color/white">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text=":"
+                  android:textColor="@android:color/white" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/Studentmarks_marks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="000" 
+                  android:textColor="@android:color/white"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:orientation="horizontal"
+            android:padding="6dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Percentage"
+                  android:textColor="@android:color/white" >
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text=":"
+                  android:textColor="@android:color/white" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/Studentmarks_Percentage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="000" 
+                  android:textColor="@android:color/white"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

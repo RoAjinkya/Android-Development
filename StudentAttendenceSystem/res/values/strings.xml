@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DepartmentInfomationSystem</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="branch">Branch</string>
+    <string name="year">Year</string>
+    <string name="Subject">Subject</string>
+
+</resources>

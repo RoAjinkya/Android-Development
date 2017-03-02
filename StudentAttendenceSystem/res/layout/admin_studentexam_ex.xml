@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" >
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="6dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Department"
+                        android:textColor="@android:color/white" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text=":"
+                        android:textColor="@android:color/white" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/adminviewex_branch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="000"
+                        android:textColor="@android:color/white" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="6dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Year"
+                        android:textColor="@android:color/white" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text=":"
+                        android:textColor="@android:color/white" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/adminviewex_year"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="000"
+                        android:textColor="@android:color/white" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="6dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Student ID"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text=":"
+                        android:textColor="@android:color/white" />
+
+                    <Spinner
+                        android:id="@+id/adminviewex_studID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </TableRow>
+            </TableLayout>
+
+            <Button
+                android:id="@+id/adminviewex_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_background"
+                android:text="OK"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Name"
+                android:textColor="@android:color/white" >
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text=":"
+                android:textColor="@android:color/white" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/adminviewex_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="null"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" >
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="6dp" >
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="6dp" >
+
+                    <TextView
+                        android:id="@+id/adminviewex_chcksem1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Semister 01"
+                        android:textColor="@android:color/white" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text=":"
+                        android:textColor="@android:color/white" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/adminviewex_sem1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="null"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="   "
+                        android:textColor="@android:color/white" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/adminviewex_chcksem5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text=" Semister 05"
+                        android:textColor="@android:color/white" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text=":"
+                        android:textColor="@android:color/white" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/adminviewex_sem5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="null"
+                        android:textColor="@android:color/white" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="6dp" >
+
+                    <TextView
+                        android:id="@+id/adminviewex_chcksem2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Semister 02"
+                        android:textColor="@android:color/white" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text=":"
+                        android:textColor="@android:color/white" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/adminviewex_sem2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="null"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="   "
+                        android:textColor="@android:color/white" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/adminviewex_chcksem6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Semister 06"
+                        android:textColor="@android:color/white" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text=":"
+                        android:textColor="@android:color/white" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/adminviewex_sem6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="null"
+                        android:textColor="@android:color/white" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="6dp" >
+
+                    <TextView
+                        android:id="@+id/adminviewex_chcksem3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Semister 03"
+                        android:textColor="@android:color/white" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text=":"
+                        android:textColor="@android:color/white" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/adminviewex_sem3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="null"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="   "
+                        android:textColor="@android:color/white" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/adminviewex_chcksem7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Semister 07"
+                        android:textColor="@android:color/white" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text=":"
+                        android:textColor="@android:color/white" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/adminviewex_sem7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="null"
+                        android:textColor="@android:color/white" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="6dp" >
+
+                    <TextView
+                        android:id="@+id/adminviewex_chcksem4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Semister 04"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text=":"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:id="@+id/adminviewex_sem4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="null"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="   "
+                        android:textColor="@android:color/white" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/adminviewex_chcksem8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Semister 08"
+                        android:textColor="@android:color/white" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text=":"
+                        android:textColor="@android:color/white" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/adminviewex_sem8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="null"
+                        android:textColor="@android:color/white" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:padding="6dp" >
+
+            <Button
+                android:id="@+id/adminviewex_nxtyearBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_background"
+                android:padding="3dp"
+                android:text="Next Year"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/adminviewex_clrbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/button_background"
+                android:text="Clear"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

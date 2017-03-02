@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_all" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp" >
+
+            <TextView
+                android:id="@+id/LecturerRegister_lect_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Professor_id"
+                android:textSize="25sp" 
+                android:textColor="@android:color/white"/>
+
+            <TextView
+                android:id="@+id/LecturerRegister_editlectid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="40dp"
+                android:textSize="20sp"
+                android:textColor="@android:color/white" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp" >
+
+            <TextView
+                android:id="@+id/LecturerRegister_fname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FirstName"
+                android:textSize="20sp"
+                android:textColor="@android:color/white" />
+
+            <EditText
+                android:id="@+id/LecturerRegister_editfname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" 
+                android:textColor="@android:color/white"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp" >
+
+            <TextView
+                android:id="@+id/LecturerRegister_lname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LastName"
+                android:textSize="20sp"
+                android:textColor="@android:color/white" />
+
+            <EditText
+                android:id="@+id/LecturerRegister_editlname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" 
+                android:textColor="@android:color/white"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp" >
+
+            <TextView
+                android:id="@+id/LecturerRegister_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textSize="20sp"
+                android:textColor="@android:color/white" />
+
+            <EditText
+                android:id="@+id/LecturerRegister_editaddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" 
+                android:textColor="@android:color/white"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp" >
+
+            <TextView
+                android:id="@+id/LecturerRegister_contno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact_No"
+                android:textSize="20sp" 
+                android:textColor="@android:color/white"/>
+
+            <EditText
+                android:id="@+id/LecturerRegister_editcontno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" 
+                android:textColor="@android:color/white"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp" >
+
+            <TextView
+                android:id="@+id/LecturerRegister_email_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email_id"
+                android:textSize="20sp"
+                android:textColor="@android:color/white" />
+
+            <EditText
+                android:id="@+id/LecturerRegister_editemailid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@android:color/white" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp" >
+
+            <TextView
+                android:id="@+id/LecturerRegister_branch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Department"
+                android:textSize="20sp"
+                android:textColor="@android:color/white" />
+
+            <Spinner
+                android:id="@+id/LecturerRegister_branchedit"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp" >
+
+            <TextView
+                android:id="@+id/LecturerRegister_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Year"
+                android:textSize="20sp" 
+                android:textColor="@android:color/white"/>
+
+            <Spinner
+                android:id="@+id/LecturerRegister_yearedit"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp" >
+
+            <TextView
+                android:id="@+id/LecturerRegister_login_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login_id"
+                android:textSize="20sp" 
+                android:textColor="@android:color/white"/>
+
+            <EditText
+                android:id="@+id/LecturerRegister_editloginid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@android:color/white" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp" >
+
+            <TextView
+                android:id="@+id/LecturerRegister_passwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textSize="20sp"
+                android:textColor="@android:color/white" />
+
+            <EditText
+                android:id="@+id/LecturerRegister_editpasswd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:password="true"
+                android:textSize="20sp"
+                android:textColor="@android:color/white" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp" >
+
+            <Button
+                android:id="@+id/LecturerRegister_Submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Submit"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button_background"/>
+
+            <Button
+                android:id="@+id/LecturerRegister_new"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="New Register" 
+                android:textColor="@android:color/white"
+                                android:background="@drawable/button_background"/>
+                
+               
+        </TableRow>
+      </TableLayout>
+
+</ScrollView>

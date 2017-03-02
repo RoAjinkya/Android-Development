@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.studentattendencesystem"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+     <uses-permission android:name="android.permission.SEND_SMS"/>
+     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+     <uses-permission android:name="android.permission.BLUETOOTH"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.studentattendencesystem.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.studentattendencesystem.LoginActivity"
+            android:label="College Login Page" />
+        <activity
+            android:name="com.example.studentattendencesystem.LecturerActivity"
+            android:label=" Professor Login " />
+        <activity android:name="com.example.studentattendencesystem.studentlogin.StudentActivity"
+            android:label=" Student Login " />
+        <activity android:name="com.example.studentattendencesystem.admin.AdminActivity"
+            android:label="Admin Login " >
+        </activity>
+        <activity android:name="com.example.studentattendencesystem.RegistrationActivity" 
+            android:label="College Registration Page">
+        </activity>
+        <activity android:name="com.example.studentattendencesystem.registration.AdminRegister" 
+            android:label=" Admin Registration "/>
+        <activity android:name="com.example.studentattendencesystem.registration.LecturerRegister"
+android:label="Professor Registration"/>
+        <activity android:name="com.example.studentattendencesystem.registration.StudentRegister" 
+            android:label="Student Registration">
+        </activity>
+        <activity android:name=".BluetoothActivity"></activity>
+        <activity android:name=".SendEmail"></activity>
+        <activity android:name=".SendSms"></activity>
+    </application>
+
+</manifest>

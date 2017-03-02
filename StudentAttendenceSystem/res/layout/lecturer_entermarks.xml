@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true" 
+    android:layout_gravity="center"
+    android:background="@drawable/gradient_all">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/entermarks_lectname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Lecturer Name"
+                 android:textColor="@android:color/white"
+                  >
+            </TextView>
+
+            <TextView
+                android:id="@+id/entermarks_logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Logout"
+                android:textColor="@android:color/white" >
+            </TextView>
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:text="Exam ID" 
+                    android:textColor="@android:color/white">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:text=":"
+                    android:textColor="@android:color/white" >
+                </TextView>
+
+                <Spinner
+                    android:id="@+id/entermarks_examid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:text="Exam Date"
+                    android:textColor="@android:color/white" >
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:text=":"
+                    android:textColor="@android:color/white" >
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/entermarks_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="00-00-0000"
+                        android:textColor="@android:color/white" >
+                    </TextView>
+
+                    <Button
+                        android:id="@+id/entermarks_btndate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Change Date" 
+                        android:textColor="@android:color/white"
+                        android:background="@drawable/button_background"/>
+                </LinearLayout>
+
+                <TextView>
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:orientation="horizontal"
+                android:padding="6dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:text="Student ID" 
+                    android:textColor="@android:color/white">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:text=":" 
+                    android:textColor="@android:color/white">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/entermarks_rollno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="000" 
+                    android:textColor="@android:color/white"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:text="Enter Outoff Marks" 
+                    android:textColor="@android:color/white">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:text=":" 
+                    android:textColor="@android:color/white">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/entermarks_outoff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="000"
+                    android:textColor="@android:color/white" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:text="Enter Marks"
+                    android:textColor="@android:color/white" >
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:text=":"
+                    android:textColor="@android:color/white" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/entermarks_prcent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="000"
+                    android:textColor="@android:color/white" />
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:padding="6dp" >
+
+            <Button
+                android:id="@+id/entermarks_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit" 
+                android:textColor="@android:color/white"
+                android:background="@drawable/button_background"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
